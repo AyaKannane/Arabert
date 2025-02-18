@@ -1,45 +1,47 @@
-# **Project on Fine-Tuning Language Models**  
+# **Fine-Tuning Language Models for NLP Tasks**  
 ## *Advanced Natural Language Processing Course*  
-**University Year:** 2024/2025  
+**Academic Year:** 2024/2025  
 
 ---
 
-# Project Goals
+## Project Objectives  
 
-## Optimizing the Target Model
-- Adapt a pre-trained BERT model specifically for the **Arabic Sentiment Tweets** dataset.
-- Assess model performance on the test set using evaluation metrics from **TorchMetrics**.
+### Enhancing Model Adaptation  
+- Fine-tune a **pre-trained BERT model** for sentiment analysis on the **Arabic Sentiment Tweets** dataset.  
+- Evaluate model performance using metrics from **TorchMetrics**.  
 
-## Introducing Multi-Head Differential Attention
-- Design and implement a custom **multi-head attention** mechanism based on **differential attention** principles.
-- Seamlessly integrate this mechanism into the fine-tuned BERT architecture.
+### Implementing Multi-Head Differential Attention  
+- Develop a **custom multi-head attention** mechanism leveraging **differential attention** principles.  
+- Integrate this approach seamlessly into the fine-tuned BERT model.  
 
-## Exploring Hybrid Attention Approaches
-- Partially replace **25%-50%** of the encoder and/or decoder layers’ multi-head attention with the new differential attention mechanism.
-- Train and evaluate the performance of each modified configuration.
-
----
-
-# Dataset  
-**Name:** Arabic Sentiment Tweets Dataset  
-- **Task:** Text Classification  
-- **Dataset Link:** [Mendeley Data](https://data.mendeley.com/datasets/57zpx667y9/2)  
+### Investigating Hybrid Attention Strategies  
+- Replace **25%-50%** of the encoder and/or decoder layers’ multi-head attention with the differential attention mechanism.  
+- Train multiple configurations and compare their effectiveness.  
 
 ---
 
-# Pre-trained Model  
-**Model:** BERT  
-- **Pre-trained Version:** [BERT-Base-ArabertV2](https://huggingface.co/aubmindlab/bert-base-arabertv2)  
+## Dataset  
+**Dataset Name:** Arabic Sentiment Tweets Dataset  
+- **Task:** Sentiment Classification  
+- **Source:** [Mendeley Data](https://data.mendeley.com/datasets/57zpx667y9/2)  
 
 ---
 
-# Setup Instructions
+## Pre-trained Model  
+**Base Model:** BERT  
+- **Version Used:** [BERT-Base-ArabertV2](https://huggingface.co/aubmindlab/bert-base-arabertv2)  
 
-## Prerequisites
-To run this project, ensure you have the following dependencies installed:
+---
 
-- Python 3.x
-- PyTorch (preferably version 1.10+)
-- Transformers library from Hugging Face
-- TorchMetrics
-- Datasets from Hugging Face or other relevant data sources
+## Setup Guide  
+
+### Requirements  
+Ensure you have the following dependencies installed:  
+
+- Python 3.x  
+- PyTorch (version 1.10+ recommended)  
+- Hugging Face **Transformers** library  
+- **TorchMetrics** for evaluation  
+- **Datasets** library for handling data sources  
+
+---
